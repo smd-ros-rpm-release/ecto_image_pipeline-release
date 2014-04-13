@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 project(ecto_image_pipeline)
 
 find_package(Boost REQUIRED)
-find_package(catkin REQUIRED opencv_candidate)
+find_package(catkin REQUIRED cmake_modules opencv_candidate)
 find_package(Eigen REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(PCL REQUIRED)
@@ -32,9 +32,7 @@ include_directories(SYSTEM ${Eigen_INCLUDE_DIRS}
 add_subdirectory(cells)
 add_subdirectory(src)
 
-option(BUILD_TEST "Build tests" ON)
-if(BUILD_TEST)
-  enable_testing()
+if(CATKIN_ENABLE_TESTING)
   add_subdirectory(test)
 endif()
 
