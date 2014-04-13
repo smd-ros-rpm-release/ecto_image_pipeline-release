@@ -1,7 +1,0 @@
-ros-groovy-ecto-image-pipeline (0.4.13-0precise) precise; urgency=high
-
-  * fix dependencies with PCL
-
- -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 28 Aug 2013 19:03:21 +0000
-
-
