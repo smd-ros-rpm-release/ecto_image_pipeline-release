@@ -1,0 +1,24 @@
+ros-groovy-ecto-image-pipeline (0.5.1-0oneiric) oneiric; urgency=high
+
+  * update dependencies
+  * Contributors: Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Sat, 12 Apr 2014 22:00:00 -0000
+
+ros-groovy-ecto-image-pipeline (0.5.0-0oneiric) oneiric; urgency=high
+
+  * no need for g2o cells: g2o things should be done through the library anyway
+  * make the code compile on Indigo
+  * use the proper new camera topic
+  * use the newer catkin variable for tests
+  * Contributors: Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Sat, 12 Apr 2014 22:00:00 -0000
+
+ros-groovy-ecto-image-pipeline (0.4.13-0oneiric) oneiric; urgency=high
+
+  * fix dependencies with PCL
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 28 Aug 2013 20:03:21 +0200
+
+

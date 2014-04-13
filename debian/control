@@ -1,0 +1,12 @@
+Source: ros-groovy-ecto-image-pipeline
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), libboost1.46-all-dev, ros-groovy-catkin, ros-groovy-cmake-modules, ros-groovy-ecto, ros-groovy-ecto-opencv, ros-groovy-pcl-ros
+Homepage: http://plasmodic.github.io/ecto_image_pipeline/
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ecto-image-pipeline
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost1.46-all-dev, libeigen3-dev, ros-groovy-ecto, ros-groovy-ecto-opencv, ros-groovy-ecto-ros, ros-groovy-pcl-ros
+Description: Common tools for image based pipelines. Includes stereo and mono camera drivers, rectification, image sinks, calibration, etc..
