@@ -1,3 +1,8 @@
+0.5.4 (2014-11-20)
+------------------
+* add Eigen as a build dependency
+* Contributors: Vincent Rabaud
+
 0.5.3 (2014-11-20)
 ------------------
 * remove the PCL dependency
